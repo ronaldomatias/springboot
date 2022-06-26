@@ -35,7 +35,7 @@ public class ProdutoService {
 
 	public ProdutoMap put(ProdutoMap produto) {
 		
-		return produtoRepository.save(produto);
+		return (produtoRepository.existsById(produto.getId()) == true) ? produtoRepository.save(produto) : null;
 	}
 
 }

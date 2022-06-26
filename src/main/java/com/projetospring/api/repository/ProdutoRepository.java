@@ -5,4 +5,5 @@ import com.projetospring.api.repository.maps.ProdutoMap;
 
 public interface ProdutoRepository extends JpaRepository<ProdutoMap, Long> {
 
+
 }
