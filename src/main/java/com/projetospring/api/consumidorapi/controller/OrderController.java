@@ -4,8 +4,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.projetospring.api.consumidorapi.OrderClient;
+
 import com.projetospring.api.consumidorapi.classesoutput.ProdutoOutput;
+import com.projetospring.api.consumidorapi.clients.OrderClient;
+
 import reactor.core.publisher.Flux;
 
 @RestController
