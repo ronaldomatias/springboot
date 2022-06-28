@@ -2,8 +2,7 @@ INTRODUÇÃO:
 
 Aplicação WEB, utilizando tecnologias: 
 1. Linguagem Java
-2. Framework SpringBoot 
-  2.1 Depêndencias: (WebFlux, DataJPA)
+2. Framework: SpringBoot, WebFlux, DataJPA
 
 OBJETIVOS:
 1. Construir API usando padrões REST.
