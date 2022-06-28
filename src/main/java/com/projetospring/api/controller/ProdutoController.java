@@ -24,31 +24,26 @@ public class ProdutoController {
 
 	@GetMapping("/produtos")
 	private List<ProdutoMap> buscarTodos() {
-
 		return produtoService.findAll();
 	}
 
-	@GetMapping("/produto/{id}")
+	@GetMapping("/produtos/{id}")
 	private Optional<ProdutoMap> buscarPorId(@PathVariable(value = "id") Long id) {
-
 		return produtoService.findById(id);
 	}
 
-	@PostMapping("/produto")
+	@PostMapping("/produtos")
 	private ProdutoMap salvar(@RequestBody ProdutoMap produto) {
-
 		return produtoService.save(produto);
 	}
 
-	@DeleteMapping("/produto")
+	@DeleteMapping("/produtos")
 	private void deletar(@RequestBody ProdutoMap produto) {
-
 		produtoService.delete(produto);
 	}
-	
-	@PutMapping("/produto")
-	private void atualizar(@RequestBody ProdutoMap produto) {
 
+	@PutMapping("/produtos")
+	private void atualizar(@RequestBody ProdutoMap produto) {
 		produtoService.put(produto);
 	}
 
