@@ -1,10 +1,13 @@
-# springboot
-Desenvolvimento WEB, utilizando tecnologias: 
-- Java
-- SpringBoot (WebFlux, Data) para a construção de API's REST. De brinde, aprendendo a fazer deploy no 
-heroku.
+INTRODUÇÃO:
+
+Aplicação WEB, utilizando tecnologias: 
+1. Linguagem Java
+2. Framework SpringBoot 
+  2.1 Depêndencias: (WebFlux, DataJPA)
 
 OBJETIVOS:
-1. Como criar uma API?
-2. Como consumir uma API externa?
+1. Construir API usando padrões REST.
+2. Consumir API externa
+3. Programação reativa (WebFlux)
+4. De brinde, aprender a fazer deploy no Heroku
 
