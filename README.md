@@ -1,5 +1,7 @@
 # springboot
-Desenvolvimento WEB, utilizando tecnologias: Java + SpringBoot (WebFlux, Data) para a construção de API's REST. De brinde, aprendendo a fazer deploy no 
+Desenvolvimento WEB, utilizando tecnologias: 
+- Java
+- SpringBoot (WebFlux, Data) para a construção de API's REST. De brinde, aprendendo a fazer deploy no 
 heroku.
 
 OBJETIVOS:
