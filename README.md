@@ -3,8 +3,6 @@ INTRODUÇÃO:
 Aplicação WEB, utilizando tecnologias:
 1. Linguagem: Java
 2. Framework: SpringBoot, Spring WebFlux, Spring DataJPA
-3. IDE: Eclipse
-4. S.O: Windows 10
 
 
 OBJETIVOS:
